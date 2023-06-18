@@ -1,4 +1,6 @@
-:root {
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+  :root {
     font-family: 'Comfortaa', cursive;
     --farbe1: #0D1B2A;
     --farbe2: #1B263B;
