@@ -45,6 +45,11 @@
       border-left: 3px solid var(--farbe2);
   }
 
+nav ul li a {
+      color: var(--farbe5);
+      text-decoration: none;
+}
+
   nav ul li {
     padding: 5px
   }
