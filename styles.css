@@ -1,84 +1,91 @@
   @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
   :root {
-      font-family: 'Comfortaa', cursive;
-      --farbe1: #0D1B2A;
-      --farbe2: #1B263B;
-      --farbe3: #415A77;
-      --farbe4: #778DA9;
-      --farbe5: #EDF2F4;
-      box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    --farbe1: #0D1B2A;
+    --farbe2: #1B263B;
+    --farbe3: #415A77;
+    --farbe4: #778DA9;
+    --farbe5: #EDF2F4;
+    box-sizing: border-box;
   }
 
 
   body {
-      margin: auto;
-      background-color: var(--farbe3);
-      max-width: 1600px;
+    margin: auto;
+    background-color: var(--farbe3);
+    max-width: 1600px;
 
-      /* Grid-Container erstellen*/
-      display: grid;
-      grid-template-columns: 25% 75%;
-      grid-template-areas:
-          "header header"
-          "navigation content"
-          "footer footer";
+    /* Grid-Container erstellen*/
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+      "header header"
+      "navigation content"
+      "footer footer";
   }
 
   header, nav, main, footer {
-      padding: 10px;
+    padding: 10px;
   }
 
   header {
-      grid-area: header;
-      background-color: var(--farbe2);
-      color: var(--farbe5);
-      text-align: center;
-      padding: 30px;
+    grid-area: header;
+    background-color: var(--farbe2);
+    color: var(--farbe5);
+    text-align: center;
+    padding: 30px;
   }
 
   nav {
-      grid-area: navigation;
-      background-color: var(--farbe3);
-      color: var(--farbe5);
-      padding-left: 30px;
-      border-left: 3px solid var(--farbe2);
+    grid-area: navigation;
+    background-color: var(--farbe3);
+    color: var(--farbe5);
+    padding-left: 30px;
+    border-left: 3px solid var(--farbe2);
   }
 
-nav h2 a {
-      color: var(--farbe1);
-      text-decoration: none;
-}
+  nav h2 a {
+    color: var(--farbe1);
+    text-decoration: none;
+  }
 
 
-nav ul li a {
-      color: var(--farbe5);
-      text-decoration: none;
-}
+  nav ul li a {
+    color: var(--farbe5);
+    text-decoration: none;
+  }
+
+  nav h2 a:hover {
+    color: var(--farbe5);
+  }
+
+
+  nav ul li a:hover {
+    color: var(--farbe1);
+  }
+
 
   nav ul li {
     padding: 5px
   }
 
   main {
-      grid-area: content;
-      background-color: var(--farbe5);
-      padding-left: 30px;
-      border-right: 3px solid var(--farbe2);
+    grid-area: content;
+    background-color: var(--farbe5);
+    padding-left: 30px;
+    border-right: 3px solid var(--farbe2);
 
 
   }
 
   footer {
-      grid-area: footer;
-      background-color: var(--farbe2);
-      color: var(--farbe5);
-      text-align: center;
+    grid-area: footer;
+    background-color: var(--farbe2);
+    color: var(--farbe5);
+    text-align: center;
   }
 
-h2{
-    text-decoration: underline;
-  }
 
   h1 {
     font-size: 50px;
