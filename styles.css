@@ -27,15 +27,6 @@ header, nav, main, footer {
   padding: 10px;
 }
 
-header {
-  grid-area: header;
-  background-color: var(--farbe2);
-  color: var(--farbe5);
-  text-align: center;
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-}
 
 header p {
   font-size: 22px;
@@ -80,11 +71,15 @@ main {
   background-color: var(--farbe5);
   padding-left: 30px;
   border-right: 3px solid var(--farbe2);
+}
+
+#content {
   display: grid;
   grid-template-columns: 45% 55%;
   grid-template-areas:
     "steckbrief charakter"
     "steckbrief schauspieler";
+
 }
 
 main section {
@@ -183,4 +178,36 @@ nav li {
   font-size: 20px;
   margin-bottom: 20px;
 
+}
+
+#podcast section{
+  margin: 20px;
+  border: 1px soild black;
+  font-size: 18px;
+  display: block;
+  width: 80%;
+}
+
+header {
+  grid-area: header;
+  background-color: var(--farbe2);
+  color: var(--farbe5);
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#impressum section p {
+  text-align: left;
+}
+
+#impressum li {
+  text-align: left;
+  list-style-type: disc;
+}
+
+#impressum h3 {
+  text-decoration: underline;
+  font-weight: bold;
 }
