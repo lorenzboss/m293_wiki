@@ -215,11 +215,22 @@ header {
 #video {
   display: block;
   margin: auto;
-  width: 700px;
-  height: 394px;
-
+  width: 600px;
+  height: 338px;
+  border-radius: 10px;
+  border: none;
 }
 
-#podcast h3 {
-  text-align: center;
-} 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Seitenverhältnis */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
