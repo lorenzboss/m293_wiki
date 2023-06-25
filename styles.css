@@ -406,7 +406,7 @@ textarea {
     font-size: 15px;
     margin: 16px 0px;
   }
-  
+
   nav ul li {
     font-size: 12px;
     margin: 0px;
@@ -425,10 +425,32 @@ textarea {
   footer div section {
     margin: auto;
   }
+
+  header p {
+    font-size: 1px;
+    color: var(--farbe2);
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   #homepage {
     grid-template-columns: 1fr;
   }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  footer p, footer &copy {
+    color: aqua;
+    font-size: 5px;
+
+  }
+
+
 }
