@@ -446,9 +446,9 @@ textarea {
     font-size: 20px;
   }
 
-  footer p, footer &copy {
+  #rechte {
     color: aqua;
-    font-size: 5px;
+    font-size: 15px;
 
   }
 
