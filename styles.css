@@ -182,7 +182,7 @@ nav li {
 
 #podcast section {
   margin: 20px;
-  border: 1px soild black;
+  border: 1px solid var(--farbe1);
   font-size: 18px;
   display: block;
   width: 80%;
@@ -253,8 +253,6 @@ header {
   text-align: center;
 }
 
-/* -------- */
-
 #homepage section {
   position: relative;
   display: inline-block;
@@ -262,11 +260,8 @@ header {
 
 #homepage section:hover {
   transform: scale(1.05);
-  /* Vergrößerungseffekt */
   transition: transform 0.3s ease;
-  /* Animationsübergangseffekt */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  /* Schatteneffekt */
 }
 
 #homepage section img {
@@ -274,11 +269,6 @@ header {
   width: 100%;
   height: auto;
 }
-
-
-
-
-/* ------------ */
 
 form {
   width: 400px;
