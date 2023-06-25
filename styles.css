@@ -235,3 +235,38 @@ header {
   border-radius: 10px;
   border: none;
 }
+
+#homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 40px;
+}
+
+#homepage img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#homepage a {
+  color: var(--farbe1);
+  text-align: center;
+}
+
+/* -------- */
+
+#homepage section {
+  position: relative;
+  display: inline-block;
+}
+
+#homepage section:hover {
+  transform: scale(1.05); /* Vergrößerungseffekt */
+  transition: transform 0.3s ease; /* Animationsübergangseffekt */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
+}
+
+#homepage section img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
