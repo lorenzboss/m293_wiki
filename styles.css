@@ -213,5 +213,13 @@ header {
 }
 
 #video {
-  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 700px;
+  height: 394px;
+
 }
+
+#podcast h3 {
+  text-align: center;
+} 
