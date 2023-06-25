@@ -226,7 +226,7 @@ header {
   padding-top: 56.25%; /* 16:9 Seitenverhältnis */
 }
 
-.video-container iframe {
+#video {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,8 +234,4 @@ header {
   height: 100%;
   border-radius: 10px;
   border: none;
-}
-
-#frame {
-  border: solid black;
 }
