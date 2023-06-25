@@ -211,3 +211,7 @@ header {
   text-decoration: underline;
   font-weight: bold;
 }
+
+#video {
+  border-radius: 10px;
+}
