@@ -52,6 +52,7 @@ nav h2 a {
 nav ul li a {
   color: var(--farbe5);
   text-decoration: none;
+  font-size: 20px;
 }
 
 nav h2 a:hover {
@@ -256,12 +257,15 @@ header {
 #homepage section {
   position: relative;
   display: inline-block;
+  border: 1px solid var(--farbe1);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 #homepage section:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition: transform 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px;
 }
 
 #homepage section img {
