@@ -381,7 +381,6 @@ textarea {
     justify-content: space-between;
   }
 
-
 }
 
 @media screen and (max-width: 880px) {
@@ -418,6 +417,10 @@ textarea {
     text-align: center;
   }
 
+  nav h2 {
+    text-align: center;
+  }
+
   footer div {
     flex-direction: column;
   }
@@ -434,6 +437,8 @@ textarea {
   header {
     padding: 30px 0;
   }
+  .video-container {
+    width: 100%;}
 
 }
 
@@ -444,13 +449,20 @@ textarea {
 
   h1 {
     font-size: 20px;
+    letter-spacing: 5px;
   }
 
   #rechte {
-    color: aqua;
     font-size: 15px;
 
   }
 
+  form {
+    width: 300px;
+  }
+
+  form label {
+    font-size: 14px;
+  }
 
 }
