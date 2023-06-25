@@ -236,6 +236,7 @@ header {
   grid-gap: 40px;
 }
 
+
 #homepage img {
   width: 100%;
   border-radius: 10px;
@@ -252,6 +253,7 @@ header {
   border: 1px solid var(--farbe1);
   border-radius: 10px;
   padding: 20px;
+  margin: 20px 0;
 }
 
 #homepage section:hover {
