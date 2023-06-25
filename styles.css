@@ -175,12 +175,12 @@ footer div {
 }
 
 nav li {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
 
 }
 
-#podcast section{
+#podcast section {
   margin: 20px;
   border: 1px soild black;
   font-size: 18px;
@@ -223,7 +223,8 @@ header {
 .video-container::before {
   content: "";
   display: block;
-  padding-top: 56.25%; /* 16:9 Seitenverhältnis */
+  padding-top: 56.25%;
+  /* 16:9 Seitenverhältnis */
 }
 
 #video {
@@ -238,7 +239,7 @@ header {
 
 #homepage {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
 }
 
@@ -260,9 +261,12 @@ header {
 }
 
 #homepage section:hover {
-  transform: scale(1.05); /* Vergrößerungseffekt */
-  transition: transform 0.3s ease; /* Animationsübergangseffekt */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
+  transform: scale(1.05);
+  /* Vergrößerungseffekt */
+  transition: transform 0.3s ease;
+  /* Animationsübergangseffekt */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* Schatteneffekt */
 }
 
 #homepage section img {
@@ -270,3 +274,70 @@ header {
   width: 100%;
   height: auto;
 }
+
+
+
+
+/* ------------ */
+
+form {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid var(--farbe1);
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--farbe3);
+  border-radius: 4px;
+}
+
+
+input[type="submit"], input[type="reset"], input[type="radio"], label {
+  cursor: pointer;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: green;
+  color: var(--farbe5);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+input[type="reset"] {
+  background-color: red;
+}
+
+#radio {
+  margin-bottom: 10px;
+}  
+
+#radio label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+}
+
+textarea {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+
