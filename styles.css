@@ -114,7 +114,7 @@ footer {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 18px;
 }
 
@@ -149,9 +149,10 @@ section p {
 }
 
 #Steckbrief img {
+  max-width: 450px;
   display: block;
   margin: auto;
-  height: 400px;
+  width: 90%;
   border-radius: 3%;
 }
 
@@ -172,10 +173,12 @@ nav li {
 }
 
 #podcast section {
-  margin: 20px;
+  margin-top: 20px;
+  margin: auto;
   border: 1px solid var(--farbe1);
   font-size: 18px;
   display: block;
+  justify-content: center;
   width: 80%;
 }
 
@@ -231,9 +234,11 @@ header {
 }
 
 #homepage {
+  padding: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
+
 }
 
 
@@ -333,4 +338,71 @@ textarea {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1300px) {
+  #Schauspieler p, #Charakter p {
+    font-size: 15px;
+    margin: 0px;
+  }
+}
 
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  #homepage h3 {
+    font-size: 14px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  nav h2 {
+    font-size: 20px;
+  }
+
+  body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "navigation"
+      "content"
+      "footer";
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+
+}
+
+@media screen and (max-width: 880px) {
+  #homepage {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #homepage h3 {
+    font-size: 18px;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "steckbrief"
+      "charakter"
+      "schauspieler";
+  }
+  #Schauspieler p, #Charakter p {
+    font-size: 15px;
+    margin: 16px 0px;
+  } 
+}
