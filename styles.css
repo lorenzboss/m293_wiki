@@ -401,8 +401,28 @@ textarea {
       "charakter"
       "schauspieler";
   }
+
   #Schauspieler p, #Charakter p {
     font-size: 15px;
     margin: 16px 0px;
-  } 
+  }
+  
+  nav ul li {
+    font-size: 12px;
+    margin: 0px;
+    padding: 2px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer div {
+    flex-direction: column;
+  }
+
+  footer div section {
+    margin: auto;
+  }
 }
