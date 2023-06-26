@@ -461,6 +461,10 @@ textarea {
     width: 300px;
   }
 
+  input[type="submit"], input[type="reset"]{
+     margin: 0px 10px; 
+  }
+
   form label {
     font-size: 14px;
   }
