@@ -69,7 +69,6 @@ nav ul li {
 main {
   grid-area: content;
   background-color: var(--farbe5);
-  padding-left: 30px;
   border-right: 3px solid var(--farbe2);
 }
 
@@ -380,7 +379,6 @@ textarea {
     justify-content: space-between;
     padding: 0;
   }
-
 }
 
 @media screen and (max-width: 880px) {
@@ -441,7 +439,6 @@ textarea {
   .video-container {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 550px) {
@@ -470,5 +467,4 @@ textarea {
   form label {
     font-size: 14px;
   }
-
 }
