@@ -378,6 +378,7 @@ textarea {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    padding: 0;
   }
 
 }
