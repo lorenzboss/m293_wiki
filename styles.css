@@ -185,10 +185,22 @@ header {
   grid-area: header;
   background-color: var(--farbe2);
   color: var(--farbe5);
-  text-align: center;
   padding: 30px;
-  display: flex;
-  justify-content: space-between;
+
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-areas:
+    "info h1 none";
+}
+
+header p {
+  grid-area: info;
+}
+
+header h1 {
+  grid-area: h1;
+  margin: auto;
+  text-align: center;
 }
 
 #impressum section {
@@ -336,6 +348,17 @@ textarea {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1600px) {
+  nav {
+    border: none;
+  }
+  
+  main {
+    border: none;
+  }
+
+}
+
 @media screen and (max-width: 1300px) {
   #Schauspieler p, #Charakter p {
     font-size: 15px;
@@ -438,6 +461,10 @@ textarea {
 
   .video-container {
     width: 100%;
+  }
+
+  nav {
+    padding-left: 10px;
   }
 }
 
