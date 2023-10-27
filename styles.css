@@ -352,7 +352,7 @@ textarea {
   body {
     border: black 1px solid;
   }
-  
+
   nav {
     border: none;
   }
@@ -454,13 +454,18 @@ textarea {
     margin: auto;
   }
 
-  header p {
-    font-size: 1px;
-    color: var(--farbe2);
+  header{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h1";
   }
 
-  header {
-    padding: 30px 0;
+  header h1 {
+    max-width: 80%;
+    }
+
+  header p {
+    display: none;
   }
 
   .video-container {
