@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <p>Hier können Sie einen <a href="c_kommentar.html">Kommentar über die Webseite</a> abgeben</p>
         </section>
       </div>
-      <p id="rechte">Alle Rechte vorbehalten &copy;-2023 Lorenz Boss</p>
+      <p id="rechte">Alle Rechte vorbehalten &copy;-2024 Lorenz Boss</p>
   `;
 
 });
