@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
 
 :root {
-  --farbe1: #0D1B2A;
-  --farbe2: #1B263B;
-  --farbe3: #415A77;
-  --farbe4: #778DA9;
-  --farbe5: #EDF2F4;
+  --farbe1: #0d1b2a;
+  --farbe2: #1b263b;
+  --farbe3: #415a77;
+  --farbe4: #778da9;
+  --farbe5: #edf2f4;
   box-sizing: border-box;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 body {
@@ -23,16 +23,15 @@ body {
     "footer footer";
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
   padding: 10px;
 }
 
 header p {
   font-size: 22px;
-}
-
-#invisible {
-  color: var(--farbe2);
 }
 
 nav {
@@ -168,7 +167,6 @@ footer div {
 nav li {
   font-size: 16px;
   margin-bottom: 20px;
-
 }
 
 #podcast section {
@@ -189,8 +187,7 @@ header {
 
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-areas:
-    "info h1 none";
+  grid-template-areas: "info h1 none";
 }
 
 header div {
@@ -261,7 +258,6 @@ header img {
   grid-gap: 40px;
 }
 
-
 #homepage img {
   width: 100%;
   border-radius: 10px;
@@ -293,6 +289,10 @@ header img {
   height: auto;
 }
 
+#homepage section p {
+  margin: 10px 0 0 0;
+}
+
 form {
   width: 400px;
   margin: auto;
@@ -306,7 +306,11 @@ label {
   margin-bottom: 5px;
 }
 
-input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
   width: 90%;
   padding: 8px;
   margin-bottom: 10px;
@@ -314,18 +318,22 @@ input[type="text"], input[type="email"], input[type="tel"], textarea, select {
   border-radius: 4px;
 }
 
-input[type="submit"], input[type="reset"], input[type="radio"], label {
+input[type="submit"],
+input[type="reset"],
+input[type="radio"],
+label {
   cursor: pointer;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"],
+input[type="reset"] {
   background-color: green;
   color: var(--farbe5);
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   margin-right: 10px;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 input[type="reset"] {
@@ -342,20 +350,18 @@ input[type="reset"] {
 }
 
 input {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-size: 16px;
 }
 
 textarea {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-size: 16px;
   line-height: 150%;
   resize: none;
 }
 
-
 #impressum a {
-  color: var(--farbe1);
   text-decoration: none;
 }
 
@@ -371,11 +377,11 @@ textarea {
   main {
     border: none;
   }
-
 }
 
 @media screen and (max-width: 1300px) {
-  #Schauspieler p, #Charakter p {
+  #Schauspieler p,
+  #Charakter p {
     font-size: 15px;
     margin: 0px;
   }
@@ -395,10 +401,8 @@ textarea {
   }
 
   header img {
-    margin-top: 10px
+    margin-top: 10px;
   }
-
-  ;
 
   nav ul li a {
     font-size: 14px;
@@ -443,7 +447,8 @@ textarea {
       "schauspieler";
   }
 
-  #Schauspieler p, #Charakter p {
+  #Schauspieler p,
+  #Charakter p {
     font-size: 15px;
     margin: 16px 0px;
   }
@@ -473,8 +478,7 @@ textarea {
 
   header {
     grid-template-columns: 1fr;
-    grid-template-areas:
-      "h1";
+    grid-template-areas: "h1";
   }
 
   header h1 {
@@ -506,14 +510,14 @@ textarea {
 
   #rechte {
     font-size: 15px;
-
   }
 
   form {
     width: 300px;
   }
 
-  input[type="submit"], input[type="reset"] {
+  input[type="submit"],
+  input[type="reset"] {
     margin: 10px 0px;
   }
 
