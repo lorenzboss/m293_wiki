@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentYear = new Date().getFullYear();
 
   document.querySelector("nav").innerHTML = `
-      <h2><a href="0_homepage.html">Übersicht</a></h2>
+      <h2><a href="..">Übersicht</a></h2>
       <ul>
           <li><a href="../harry">Harry Potter</a></li>
           <li><a href="../hermine">Hermine Granger</a></li>
