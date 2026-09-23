@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=block");
 
 :root {
   --farbe1: #0d1b2a;
@@ -8,7 +7,7 @@
   --farbe4: #778da9;
   --farbe5: #edf2f4;
   box-sizing: border-box;
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", sans-serif;
 }
 
 body {
@@ -333,7 +332,7 @@ input[type="reset"] {
   border: none;
   border-radius: 4px;
   margin-right: 10px;
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", serif;
 }
 
 input[type="reset"] {
@@ -350,12 +349,12 @@ input[type="reset"] {
 }
 
 input {
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", serif;
   font-size: 16px;
 }
 
 textarea {
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", serif;
   font-size: 16px;
   line-height: 150%;
   resize: none;
